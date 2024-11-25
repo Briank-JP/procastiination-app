@@ -1,0 +1,11 @@
+{% extends "tasks/base.html" %}
+{% block title %}Welcome!!{% endblock %}
+{% block content %}
+<div class="homepage">
+    <h1>Welcome to Procrastination Helper</h1>
+    <p>This app is designed to help you manage tasks and overcome procrastination.</p>
+    <p>Take control of your tasks and stop procrastinating today!</p>
+    <a href="{% url 'task_list' %}" class="btn">Get Started</a>
+</div>
+
+{% endblock %}
